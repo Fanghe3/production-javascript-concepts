@@ -1,4 +1,4 @@
-function quiz()
+var quiz = (function()
   {    let score = 100;
 
         return function quiz1()
@@ -35,5 +35,5 @@ function quiz()
            
            return score;           
         }  
-  } 
+  } )();
   
